@@ -13,6 +13,7 @@
         android:background="#555555"
         android:textColor="#ffffff"
         android:layout_gravity="center"
+        android:textSize="20sp"
         android:text="@string/hello_world1" />
 
     <TextView
