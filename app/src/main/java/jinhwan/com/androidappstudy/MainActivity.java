@@ -1,13 +1,14 @@
 package jinhwan.com.androidappstudy;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button myButton;
+    private boolean isClick;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,13 @@ public class MainActivity extends AppCompatActivity {
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "메세지!", Toast.LENGTH_LONG).show();
+                if (isClick) {
+                    isClick = false;
+                    myButton.setBackgroundColor(Color.RED);
+                }
+                else {
+                    myButton.setBackgroundColor(Color.GREEN);
+                }
             }
         });
     }
