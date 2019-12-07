@@ -10,11 +10,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello, World1" />
+        android:text="@string/hello_world1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello, World2" />
+        android:text="@string/hello_world2" />
 
 </LinearLayout>
