@@ -1,4 +1,4 @@
-package jinhwan.com.androidappstudy.activities.base;
+package jinhwan.com.androidappstudy.activities.bases;
 
 import android.os.Build;
 import android.os.Bundle;

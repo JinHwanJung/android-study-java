@@ -2,7 +2,7 @@ package jinhwan.com.androidappstudy.activities;
 
 import android.os.Bundle;
 import jinhwan.com.androidappstudy.R;
-import jinhwan.com.androidappstudy.activities.base.BaseActivity;
+import jinhwan.com.androidappstudy.activities.bases.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 

@@ -8,9 +8,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import jinhwan.com.androidappstudy.R;
-import jinhwan.com.androidappstudy.activities.base.BaseActivity;
-import jinhwan.com.androidappstudy.activities.utils.Connection;
-import jinhwan.com.androidappstudy.activities.utils.Preferences;
+import jinhwan.com.androidappstudy.activities.bases.BaseActivity;
+import jinhwan.com.androidappstudy.utils.Connection;
+import jinhwan.com.androidappstudy.utils.Preferences;
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener {
 
