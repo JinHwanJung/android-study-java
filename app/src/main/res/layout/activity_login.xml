@@ -4,10 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_view_box"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="@string/msg_login"
+        />
+
     <LinearLayout
+        android:id="@+id/login_view_box"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="10dp"
         android:layout_centerInParent="true"
         android:background="@drawable/round_black_box">
 
@@ -61,7 +75,8 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
+            android:background="@drawable/login_button"
             android:text="@string/msg_login"
             />
 
