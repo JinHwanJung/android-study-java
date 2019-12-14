@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AndroidAppStudy</string>
+    <string name="app_name">MyInstagram</string>
+    <string name="intro_txt">IntroActivity</string>
 </resources>
