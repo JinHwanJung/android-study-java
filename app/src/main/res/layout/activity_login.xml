@@ -40,6 +40,7 @@
                 android:text="@string/msg_id"/>
             
             <EditText
+                android:id="@+id/login_edit_id"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
@@ -63,6 +64,7 @@
                 android:text="@string/msg_pw"/>
 
             <EditText
+                android:id="@+id/login_edit_pw"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
@@ -72,6 +74,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/login_button"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:textSize="18sp"
