@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">MyInstagram</string>
     <string name="intro_txt">IntroActivity</string>
+    <string name="msg_login">로그인</string>
+    <string name="msg_id">아이디</string>s
+    <string name="msg_pw">비밀번호</string>s
+
+    <string name="msg_input_id">아이디를 입력해 주세요.</string>
+    <string name="msg_input_pw">비밀번호를 입력해 주세요.</string>
+
+    <string name="msg_input_length_id">아이디는 5글자 이상 입력해 주세요.</string>
+    <string name="msg_input_length_pw">비밀번호는 6글자 이상 입력해 주세요.</string>
+
+    <string name="msg_login_fail">아이디 또는 비밀번호가 일치하지 않습니다.</string>
+
 </resources>

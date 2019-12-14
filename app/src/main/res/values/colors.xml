@@ -7,5 +7,6 @@
     <color name="white">#FFFFFFFF</color>  <!--ARGB-->
     <color name="black">#FF000000</color>
     <color name="half_transparent">#77000000</color>
+    <color name="gray">#ffc8c8c8</color>
 
 </resources>
